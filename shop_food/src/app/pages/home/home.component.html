@@ -1,0 +1,28 @@
+<!-- https://i.imgur.com/poZMP0R.jpg -->
+<div class="qc">
+    <img src="https://i.imgur.com/0ew8OSM.jpg">
+</div>
+<div class="container" >
+    <div class="content" *ngFor="let i of (product$|async)?.product">
+        <div class="product" >
+            <div class="image-product">
+                <img [src]="i.img">
+            </div>
+            <div class="information-product">
+                <div class="name">
+                    <p>{{i.item_name}}</p>
+                </div>
+                <div class="description">
+                    <p>{{i.description}}</p>
+                </div>
+                <div class="sell">
+                    <p>{{i.price}}</p>
+                    <div class="button">
+                        <button >Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+

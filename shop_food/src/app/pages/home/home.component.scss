@@ -1,0 +1,117 @@
+
+
+
+
+
+.qc{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    img{
+        max-width: 100%;
+        object-fit: cover;
+        height: 600px;
+    }
+}
+.content{
+    margin: 10px 10px 10px 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    background-color: #fafafa;
+}
+.product{
+    margin: 5px 5px 5px 5px;
+    width: 250px;
+    height: 300px;
+    // background-color: #E6E8EC;
+    display: flex;
+    background-color: #fefefe;
+    border-radius: 5px;
+    border: 1px solid #E1E3E4;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    // display: grid;
+    // grid-gap: 1rem;
+    // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.product:hover{
+    transition: 0.2s;
+    border: 1.3px solid #cdcec4;
+    margin: 2px 0px 0px 2px;
+}
+.image-product{
+    width: 100%;
+    height: 190px;
+    background-color: aqua;
+    align-items: center;
+    border: none;
+    // background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    // display: ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.image-product img{
+    max-width: 100%;
+    height: 190px;
+    object-fit: cover;
+    width: 100%;
+    
+}
+.information-product{
+    padding: 10px 10px 10px 10px;
+    height: 30%;
+
+}
+.name{
+    width: 100%;
+    height: auto;
+
+}
+.name-product p{
+    width: 100%;
+    // padding: 10px 4px 9px 4px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.description{
+    display: flex;
+    align-items: center;
+    p{
+        margin: 0;
+    }
+}
+.sell{
+    padding: 10px 5px 9px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.sell p{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 13.5px;
+}
+
+
+.button button{
+    height: 34px;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #5c96bc;
+    position: relative;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
